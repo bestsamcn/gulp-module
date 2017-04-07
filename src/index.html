@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link href="" rel="stylesheet">
+<script src="lib/require.js" data-main="../dist/main-index"></script>
+</head>
+<body>
+    <div class="home">
+        <script type="text/html" id="home-tpl">
+        {{ each [1,2,3,4]}}
+            <div class="item">{{$index}}</div>
+        {{ /each }}
+        </script>
+    </div>
+</body>
+</html>
